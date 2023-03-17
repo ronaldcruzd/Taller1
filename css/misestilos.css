@@ -1,0 +1,126 @@
+head {
+    width: 100%;
+    font-size: 30px; 
+    color: blueviolet;
+    
+    background-image: "../imagen/head.svg";
+    
+   
+}
+nav {
+    color: rgb(12, 14, 28);
+    background-color: rgb(40, 120, 158);
+    text-align: right;
+    font-size: 30px;
+    border: #c4dd9a;
+    border-radius: 5px;
+}
+.boton{
+    color: rgb(12, 14, 28);
+    background-color: rgb(160, 204, 224);
+    padding: 15px;
+    
+    font-size: 26px;
+    border: #161814 10px double;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+h1{
+    color: rgb(0, 37, 249);
+    background-color: rgb(195, 211, 219);
+}
+
+#texto{
+   /*  color: rgb(0, 249, 4);
+    background-color: rgb(18, 100, 82); */
+    font-family: Verdana, sans-serif;
+    font-size: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1%;
+    padding-left: 2%;
+}
+section {
+    width: 69%;
+    background: #ededf6;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    width: 29%;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #c8d7f5;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
+#principal {
+    width: 90%;
+    height: 80%;
+    background: #f5f1ba;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+.parrafo{
+   
+    justify-content: baseline;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1%;
+    padding-left: 2%;
+}
+table {
+    border: 2px solid #000;
+    border-collapse: separate;
+    width: 70%;
+    background: #c4dd9a;
+    
+ }
+ th {
+    
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    background-color: black;
+    color: #c4dd9a;
+
+ }
+ td {
+   
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+
+ }
+ .perimera{
+    width: 15%;
+ }
+ .segunda{
+    width: 25%;
+ }
+ .tercera{
+    width: 55%;
+ }
